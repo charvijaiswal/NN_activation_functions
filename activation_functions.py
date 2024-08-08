@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Define the activation functions
+#define the activation functions
 def binary_unipolar(x):
     return np.where(x > 0, 1, 0)
 
