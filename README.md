@@ -9,7 +9,7 @@ Range: [0,1]
 
 
 2. Binary_bipolar
-    return np.where(x > 0, 1, -1)
+Range: [-1,1]
 
 ![image](https://github.com/user-attachments/assets/5009305c-9a2a-4902-b5b1-b9f826e84ab9)
 
