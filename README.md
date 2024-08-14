@@ -30,8 +30,9 @@ Range: [-1,1]
 ![image](https://github.com/user-attachments/assets/f615f510-f1bf-4677-9695-6b5d8acd978f)
 
 
-5. Relu
-    return np.maximum(0, x)
+5. **Relu**
+   
+=np.maximum(0, x)
    
 ![image](https://github.com/user-attachments/assets/15473f8f-ba83-424a-a7df-6e237526058f)
 
