@@ -17,13 +17,15 @@ Range: [-1,1]
 
 
 3. **Bipolar continuous** (lambda_value=1)
+   
 =(2 / (1 + np.exp(-lambda_value * x))) - 1
 
 ![image](https://github.com/user-attachments/assets/8dccf996-dde5-4d0d-be4f-b51d077bec77)
 
     
-4. Unipolar_continuous (lambda_value=1): # sigmoid
-    return 1 / (1 + np.exp(-x))
+4. **Unipolar_continuous** (lambda_value=1): # sigmoid
+   
+=1 / (1 + np.exp(-x))
 
 ![image](https://github.com/user-attachments/assets/f615f510-f1bf-4677-9695-6b5d8acd978f)
 
