@@ -2,20 +2,22 @@
 
 Activation Functions are mathematical functions that determine whether a neuron should be activated or not. The output of an activation function is used as the input to the next layer in the network, allowing the network to learn and make decisions.
 
-1. Binary_unipolar
+1. **Binary_unipolar**
+   
 Range: [0,1]
 
 ![image](https://github.com/user-attachments/assets/2c557a0d-6b3c-43c8-93a6-d2a24212efc9)
 
 
-2. Binary_bipolar
+2. **Binary_bipolar**
+   
 Range: [-1,1]
 
 ![image](https://github.com/user-attachments/assets/5009305c-9a2a-4902-b5b1-b9f826e84ab9)
 
 
-3. Bipolar continuous (lambda_value=1)
-    return (2 / (1 + np.exp(-lambda_value * x))) - 1
+3. **Bipolar continuous** (lambda_value=1)
+=(2 / (1 + np.exp(-lambda_value * x))) - 1
 
 ![image](https://github.com/user-attachments/assets/8dccf996-dde5-4d0d-be4f-b51d077bec77)
 
