@@ -10,7 +10,6 @@ Range: [0,1]
 
 
 2. **Binary_bipolar**
-3. 
    
 Range: [-1,1]
 
